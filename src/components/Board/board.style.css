@@ -1,0 +1,20 @@
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.board .last {
+    font-size: 3em;
+}
+
+.board .histo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.board .histo .boule{
+    display: inline-block;
+    width: 3em;
+}
